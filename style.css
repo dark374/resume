@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+p {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    /* transition: all .2s; */
+}
+
+a:hover {
+    color: orange;
+    /* font-size: 2rem; */
+}
+
+a:visited {
+    color: red;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+}
+
+.about {
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.about div {
+    margin: 10px;
+}
+
+.photo img {
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.my-hobby li {
+    padding: 5px;
+}
+
+.card {
+    border: 2px solid magenta;
+    border-radius: 10px;
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+.hobby {
+    background-color: #eee;
+}
+
+.expiriense {
+    background-color: #e55f28;
+}
+
+.my-expiriense tr:nth-child(odd) {
+    background: #582e2e;
+}
+
+.mail {
+    background-color: #a5a5a5;
+}
+
+.mail-display div {
+    display: inline-block;
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.8;
+    color: oreange;
+}
+
+@media (max-width: 500px) {
+    .mail-display div {
+        display: block;
+    }
+
+    .about {
+        margin-bottom: 0;
+        display: none;
+    }
+}
